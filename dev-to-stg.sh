@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "start"
 git checkout stg
 git merge dev --no-edit
 TAG_NAME="release-$(date +%Y%m%d-%H%M%S)"
