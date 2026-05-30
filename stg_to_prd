@@ -1,4 +1,4 @@
-> > #!/bin/bash
+> #!/bin/bash
 >
 > STG_BRANCH = "stg"
 > PRD_BRANCH = "prd"
@@ -16,3 +16,9 @@
 > git merge $STG_BRANCH --no-ff -m "Merge $STG_BRANCH -> $PRD_BRANCH $TIMESTAM"
 >
 > EOF
+
+
+
+
+
+
