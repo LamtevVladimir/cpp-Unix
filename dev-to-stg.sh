@@ -2,8 +2,7 @@
 echo "start dev->stg"
 git checkout stg
 git merge dev --no-edit
-TAG_NAME = "version-$(date)"
-git tag "$TAG_NAME"
+git tag "$(date)"
 git push origin stg -- tags
 
 git checkout dev
